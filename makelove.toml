@@ -1,0 +1,13 @@
+name = "SL1CRX"
+default_targets = ["win32", "win64"]
+build_directory = "builds"
+
+love_files = [
+    "+*",
+    "-*/.*",
+    "-./builds/*",
+]
+
+
+[lovejs]
+memory = '200000000'
